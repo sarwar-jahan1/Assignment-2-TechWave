@@ -11,6 +11,13 @@
 body{
     background-color: #1A0B2E;
 }
+nav img{
+    /* text-align: center; */
+    padding-top: 8px;
+    align-items: center;
+    width: 150px;
+    height: 25px;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -19,11 +26,11 @@ nav{
     border-bottom: 1px solid #27163c;
     margin-bottom: 20px;
 }
-nav h2{
+/* nav h2{
     color: white;
     font-weight: bold;
-}
-nav .font-color{
+} */
+/* nav .font-color{
     background:linear-gradient(
     90deg,
     #ff7a18,
@@ -31,13 +38,12 @@ nav .font-color{
     #6a00ff
   );;
   margin-left: 2px;
-}
+} */
 nav ul{
     display: flex;
     align-items: center;
     gap: 30px;
     list-style-type: none;
-
 }
 nav ul li a{
     text-decoration: none;
@@ -61,6 +67,7 @@ nav .btn{
     margin-bottom: 70px;
 }
  .hero-section{
+    /* width: 100%; */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -73,7 +80,7 @@ nav .btn{
 }
 .hero-section .second-picture{
     
-    width: 280px;  
+    width: 350px;  
     height: 350px;
     background-image: url("./assets/hero-circle.png");
     background-size: contain;
@@ -141,7 +148,7 @@ nav .btn{
 }
 .about-text-section p{
     color: rgb(188, 183, 183);
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .about-cards{
     display: grid;
@@ -167,6 +174,7 @@ nav .btn{
 
 .color-blue{
     background-color: #230E3D;
+    
 }
 .color-blue .choose-section{
     text-align: center;
@@ -183,22 +191,106 @@ nav .btn{
     grid-template-columns: repeat(3,1fr);
     grid-auto-rows: 180px;
     gap: 20px;
-    
+    justify-content: center;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+}
+.common-h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+.common-p{
+    color: rgb(192, 188, 188);
 }
 .grid-items .big-column{
-    background-color: #6a00ff;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
     grid-row: span 2;
-    border-radius: 10px
+    border-radius: 15px;
+    padding: 100px 20px 0px 20px;
+    color: white;
     
 }
 .grid-items .big-row{
-    background-color: #ff2ddc;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
     grid-column: span 2;
-    border-radius: 10px
-    back
+    border-radius: 15px;
+    padding: 30px 20px 0px 20px;
 }
 .grid-items .average{
-    background-color: antiquewhite;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
     grid-column: span 1;
-    border-radius: 10px
+    border-radius: 15px;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.section-text{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.section-text h2{
+    color: white;
+    font-size: 3.5rem;
+}
+.youtube-feature{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.feature-box iframe{
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.youtube-feature .feature-box{
+   
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+ 
+}
+.feature-box .div,h2, p {
+    padding: 10px;
+}
+.feature-box .div{
+    color: #00FF88;
+}
+.main-feature{
+    margin-bottom: 50px;
+}
+
+.div-container{
+    margin-bottom: 50px;
+}
+
+ .last-section{
+    padding: 20px;
+    border-radius: 25px;
+ }
+/* .container h2{
+    text-align: center;
+    font-size: 3.5rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 100px;
+} */
+.photo-section .img{
+    width: 40%;
+}
+.photo-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* gap: -20px; */
+}
+.social-media{
+    
+}
+.social-media img{
+   
+    margin: 10px;
+    border: 1px solid rgb(40, 40, 39);
+    border-radius: 50%;
+    padding: 10px;
+    background-size: cover;
 }
