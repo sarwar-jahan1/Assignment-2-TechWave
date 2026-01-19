@@ -229,6 +229,7 @@ nav .btn{
     
 }
 .grid-items .big-row{
+    width: 100%;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
     grid-column: span 2;
     border-radius: 15px;
@@ -343,9 +344,14 @@ footer .footer-section{
     padding-left: 50px;
 }
 .footer-section p{
-    /* font-size: 1.2rem; */
     color: #b5b3b3;
     padding-top: 50px;
+}
+.footer-section hr{
+    border: none;
+    border-top: 1px solid #333;
+    -bottom: 12px;
+    margin-top: 80px;
 }
 .footer-images .img-last{
     display: flex;
@@ -413,6 +419,10 @@ footer .footer-section{
     width: 100%;
     padding-left: 15px;
   }
+  .grid-items{
+    /* margin: 20px; */
+    /* padding: 20px 40px 20px 10px; */
+  }
   .grid-items .big-row{
     padding:10px;
   }
@@ -421,7 +431,7 @@ footer .footer-section{
   }
   .youtube-feature{
     grid-template-columns: repeat(1,1fr);
-    margin: 10px;
+    margin: 20px;
   }
   .photo-section{
     grid-template-columns: repeat(1,1fr);
@@ -464,5 +474,16 @@ footer .footer-section{
   .grid-items .big-row{
     margin-right: 10px;
   }
-
+  footer{
+    padding-bottom: 30px;
+  }
+  /* .footer-section .footer-copy hr{
+   
+  }
+  .footer-section .footer-copy p{
+    padding-bottom: 20px;
+  } */
+   .footer-section p{
+    padding-top:  40px;
+}
 }
