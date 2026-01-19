@@ -66,6 +66,7 @@ nav .btn{
 }
  .hero-section{
     height: 100vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -388,11 +389,11 @@ footer .footer-section{
     background-position: top center;
   }
   .hero-section .second-picture{
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
   }
   .hero-section .second-picture img{
-    width: 70px;
+    width: 60px;
     height: auto;
   }
 
@@ -460,4 +461,8 @@ footer .footer-section{
   .host{
     margin-bottom: 30px;
   }
+  .grid-items .big-row{
+    margin-right: 10px;
+  }
+
 }
