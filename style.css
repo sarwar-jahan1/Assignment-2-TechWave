@@ -365,4 +365,18 @@ footer .footer-section{
     display: flex;
     align-items: center;
   }
+  .hero-section{
+    height: 60vh;
+    background-position: top center;
+  }
+  .hero-section .second-picture{
+    /* width: 100px;
+    min-height: 200px; */
+    height: 250px;
+    width: 250px;
+  }
+  .hero-section .second-picture img{
+    width: 70px;
+    height: auto;
+  }
 }
